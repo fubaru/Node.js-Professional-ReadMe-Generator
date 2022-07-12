@@ -26,7 +26,17 @@ const questions = [
         type: "list",
         name: "license",
         message: "choose following license",
-        choices: ["MIT","IBM","Apache","Boost","Mozilla"]
+        choices: ["MIT","IBM","Apache","Boost","Mozilla","No License"]
+    },
+    {
+        type: "input",
+        name: "GitHubLink",
+        message: "Type in your GitHub Username",
+    },
+    {
+        type: "input",
+        name: "Email",
+        message: "Type in your Email Address",
     }
 ];
 

@@ -11,8 +11,14 @@ function renderLicenseBadge(license) {
     return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'
   } else if (license==="Mozilla") {
     return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)'
-  } else {
+  } else if (license==="No License") {
     return ""
+  };
+};
+
+function renderGitHubLink (GitHubLink) {
+  if(GitHubLink) {
+    return `[GitHub Repository](https://github.com/${GitHubLink})`
   };
 };
 
@@ -86,6 +92,12 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+
+## Questions
+
+${renderGitHubLink(data.GitHubLink)}
+
+Reach me via email for additional questions: ${data.Email}
 
 `;
 }

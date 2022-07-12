@@ -1,8 +1,8 @@
-# Test1
+# Sample Readme Generator Test
 
 ## Description
 
-test1
+a READenerator
 
 ## Table of Contents (Optional)
 
@@ -13,7 +13,7 @@ test1
 
 ## Installation
 
-test
+NPM I, Node, VS Code
 
 ## Usage
 
@@ -35,7 +35,7 @@ If you followed tutorials, include links to those here as well.
 
 ## License
 
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -58,4 +58,10 @@ If you created an application or package and would like other developers to cont
 ## Tests
 
 Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+
+## Questions
+
+[GitHub Repository](https://github.com/fubaru)
+
+Reach me via email for additional questions:austinfu0422@gmail.com
 
