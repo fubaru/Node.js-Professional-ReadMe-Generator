@@ -1,8 +1,8 @@
-# Sample Readme Generator Test
+# Node.js-Professional-ReadMe-Generator
 
 ## Description
 
-a READenerator
+This project was created for any users to generate a professional README dynamically using Javascript and Node. 
 
 ## Table of Contents (Optional)
 
@@ -10,14 +10,16 @@ a READenerator
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Features](#features)
+- [Questions](#questions)
 
 ## Installation
 
-NPM I, Node, VS Code
+Node, NPM, Inquirer, and VS Code
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Please see the screenshots below to see the terminal prompts and the step by step processes. 
 
 To add a screenshot, create an assets/images folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
 
@@ -27,11 +29,7 @@ To add a screenshot, create an assets/images folder in your repository and uploa
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Instructor Phil Loy. 
 
 ## License
 
@@ -39,17 +37,13 @@ If you followed tutorials, include links to those here as well.
 
 ---
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
 ## Badges
 
 ![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
 
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
 ## Features
 
-If your project has a lot of features, list them here.
+The GitHUB link generates dynamically
 
 ## How to Contribute
 
@@ -57,11 +51,11 @@ If you created an application or package and would like other developers to cont
 
 ## Tests
 
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+not at the moment 
 
 ## Questions
 
 [GitHub Repository](https://github.com/fubaru)
 
-Reach me via email for additional questions:austinfu0422@gmail.com
+Reach me via email for additional questions: austinfu0422@gmail.com
 

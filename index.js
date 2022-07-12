@@ -23,10 +23,32 @@ const questions = [
 
     },
     {
+        type: "input",
+        name: "usage",
+        message: "Type in any usage information available"
+
+    },
+    {
+        type: "input",
+        name: "credits",
+        message: "Who have helped or contributed to your project?"
+
+    },
+    {
         type: "list",
         name: "license",
         message: "choose following license",
         choices: ["MIT","IBM","Apache","Boost","Mozilla","No License"]
+    },
+    {
+        type: "input",
+        name: "features",
+        message: "What are some features to list?"
+    },
+    {
+        type: "input",
+        name: "tests",
+        message: "Any tests that the users can run?"
     },
     {
         type: "input",
@@ -40,8 +62,8 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// // TODO: Create a function to write README file
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() {
